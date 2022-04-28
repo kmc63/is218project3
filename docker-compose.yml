@@ -3,7 +3,7 @@ services:
   flask:
     environment:
       - FLASK_ENV=development
-    build: .
+    build: ../../flask_auth-flask_email (1)/flask_auth-flask_email
     restart: always
     ports:
       - 80:5000
